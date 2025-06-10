@@ -6,7 +6,7 @@ import (
 	"testing"
 
 	// Importing painter and lang packages.
-	"github.com/NikitaSutulov/software-architecture-lab3/painter"
+	"github.com/manabr0w/golang-GUI/painter"
 
 	// Package assert provides some helpful methods for testing, like for asserting equality or inequality.
 	"github.com/stretchr/testify/assert"
