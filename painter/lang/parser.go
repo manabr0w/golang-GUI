@@ -8,9 +8,10 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/manabr0w/golang-GUI/painter"
+	"github.com/NikitaSutulov/software-architecture-lab3/painter"
 )
 
+// Parser уміє прочитати дані з вхідного io.Reader та повернути список операцій представлені вхідним скриптом.
 type Parser struct {
 	uistate Uistate
 }
